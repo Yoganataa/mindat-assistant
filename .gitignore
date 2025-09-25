@@ -1,0 +1,43 @@
+# ## Lingkungan Virtual Python ##
+# Abaikan folder virtual environment
+venv/
+*.venv
+env/
+asstets/
+
+# ## File Rahasia & Konfigurasi ##
+# Abaikan file environment yang berisi token dan API key
+.env
+
+# ## Cache & Artefak Python ##
+# Abaikan direktori cache yang dibuat otomatis oleh Python
+__pycache__/
+# Abaikan file bytecode Python
+*.pyc
+*.pyo
+*.pyd
+
+# ## File Sesi Pyrogram ##
+# Abaikan file sesi yang menyimpan data login. Ini sangat penting untuk keamanan.
+*.session
+*.session-journal
+
+# ## Data & Log Aplikasi ##
+# Abaikan file state pengguna yang dibuat saat runtime
+user_states.json
+dataassistant-473016-3640a1edb70d.json
+# Abaikan semua file log
+*.log
+
+# ## Konfigurasi IDE / Editor ##
+# Abaikan folder konfigurasi dari editor kode populer
+.vscode/
+.idea/
+
+# ## Ketergantungan & Build ##
+# Abaikan paket yang diinstal oleh pip
+pip-wheel-metadata/
+# Abaikan distribusi build
+/dist/
+/build/
+*.egg-info/
